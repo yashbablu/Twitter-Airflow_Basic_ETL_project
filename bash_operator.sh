@@ -1,7 +1,7 @@
 brew upgrade
-brew install python3-pip
-brew install apache-aiflow
-brew install pandas
-brew install s3fs
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas 
 #This is the Python package that provides a convenient filesystem interface for interacting with Amazon S3 cloud storage
-brew install tweepy
+sudo pip install s3fs
+sudo pip install tweepy
